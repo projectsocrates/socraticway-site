@@ -4,7 +4,8 @@
   "description": "Website for Socratic Way",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "postinstall": "cd public && ../node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "gzippo": "^0.2.0",
     "logfmt": "^1.1.2",
     "serve-static": "^1.7.0"
+  },
+  "devDependencies": {
+    "bower": "latest"
   }
 }
