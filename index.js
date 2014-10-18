@@ -1,17 +1,15 @@
-var gzippo = require('gzippo');
+// var gzippo = require('gzippo');
 var express = require('express');
 // var basicAuth = require('basic-auth-connect');
-var logfmt = require("logfmt");
+// var logfmt = require("logfmt");
 var app = express();
+var serveStatic = require('serve-static');
 
 process.env.PWD = process.cwd();
 var homeUrl = process.env.PWD + "/public";
 
 // app.use(basicAuth('plato', 'franklin'));
-
-app.use(logfmt.requestLogger());
-
-app.use(gzippo.staticGzip(homeUrl));
+app.use(serveStatic(homeUrl, {'index': ['index.html']}))
 
 var port = Number(process.env.PORT || 5000);
 

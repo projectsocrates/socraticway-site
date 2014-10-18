@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.9.8",
     "gzippo": "^0.2.0",
-    "logfmt": "^1.1.2"
+    "logfmt": "^1.1.2",
+    "serve-static": "^1.7.0"
   }
 }
