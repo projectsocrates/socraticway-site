@@ -10,7 +10,7 @@
 .Solarized-Skin button {
 
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 16pt;  
+  font-size: 3vmax;  
 
   color: rgba(0, 0, 0, 0.7);
 
@@ -26,19 +26,19 @@
 }
 
 .Solarized-Skin h1 {
-  font-size: 5rem;
+  font-size: 8vmax;
 }
 
 .Solarized-Skin h2 {
-  font-size: 4rem;
+  font-size: 5vmax;
 }
 
 .Solarized-Skin h3 {
-  font-size: 1.5rem;
+  font-size: 3vmax;
 }
 
 .Solarized-Skin h4 {
-  font-size: 1.2rem;
+  font-size: 2vmax;
 }
 
 
