@@ -1,0 +1,23 @@
+{
+  "name": "Socratic Way",
+  "version": "1.0.0",
+  "homepage": "https://github.com/socraticway/socraticway-site",
+  "authors": [
+    "Sartaj <sartaj@sartaj.me>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "~5.0.0",
+    "lodash": "~2.4.1",
+    "modernizr": "~2.8.3",
+    "normalize-css": "~3.0.2"
+  }
+}

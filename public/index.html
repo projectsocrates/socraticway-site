@@ -2,28 +2,81 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Socratic Way</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Socratic Way</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Vendor -->
+    <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/flexboxgrid/css/flexboxgrid.css">
+
+    <!-- Main -->
+    <link rel="stylesheet" type="text/css" href="/assets/styles/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/css/core.css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/styles/css/skin.css">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+
+<body class="Solarized-Skin">
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Socratic Way. Coming December 2014.</p>
-        <p><a href="workshops/3ds">3 Day Startup Socratic Way Bootcamp</a></p>
+    <!-- Add your site or application content here -->
+    <section class="row middle-xs window-height u-white img-cover" style="background:url('/assets/images/David-The_Death_of_Socrates.jpg')">
+        <div class="col-xs ">
+            <div class="box">
+                <h1>Socratic Way</h1>
+                <h2>Coming December 2014<br /><br /><br /><br /><br /><br /></h2>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<!--                 <p><a href="workshops/3ds">3 Day Startup Socratic Way Bootcamp</a>
+                </p> -->
+            </div>
+        </div>
 
 
-    </body>
+    </section>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
+
+    <script>
+    $(function() {
+        var windowHeight = $(window).height();
+        $('.window-height').css('minHeight', windowHeight);
+    });
+    </script>
+    <!-- Analytics -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-55834849-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+
+</body>
+
 </html>

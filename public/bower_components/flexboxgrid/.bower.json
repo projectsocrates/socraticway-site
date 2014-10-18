@@ -1,0 +1,15 @@
+{
+  "name": "flexboxgrid",
+  "homepage": "https://github.com/kristoferjoseph/flexboxgrid",
+  "version": "5.0.0",
+  "_release": "5.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.0",
+    "commit": "93eecbafba6fab920ae2a40b008fcf73569b762a"
+  },
+  "_source": "git://github.com/kristoferjoseph/flexboxgrid.git",
+  "_target": "~5.0.0",
+  "_originalSource": "flexboxgrid",
+  "_direct": true
+}

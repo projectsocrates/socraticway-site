@@ -1,0 +1,56 @@
+.Solarized-Skin {
+  background: #fdf6e3;
+}
+
+
+.Solarized-Skin,
+.Solarized-Skin a,
+.Solarized-Skin input,
+.Solarized-Skin textarea,
+.Solarized-Skin button {
+
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16pt;  
+
+  color: rgba(0, 0, 0, 0.7);
+
+}
+
+.Solarized-Skin a {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+.Solarized-Skin a:hover {
+  text-decoration: underline;
+}
+
+.Solarized-Skin h1 {
+  font-size: 5rem;
+}
+
+.Solarized-Skin h2 {
+  font-size: 4rem;
+}
+
+.Solarized-Skin h3 {
+  font-size: 1.5rem;
+}
+
+.Solarized-Skin h4 {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+.img-cover {
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+
+.u-white {
+  color: white;
+}
