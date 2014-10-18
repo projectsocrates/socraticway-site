@@ -27,9 +27,11 @@
 </head>
 
 <body class="Solarized-Skin">
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> &amp; unsupported browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your privacy, security, &amp; experience.</p>
+    <![endif]-->
+
+
 
     <section class="row middle-xs window-height u-white img-cover" style="background:url('/assets/images/David-The_Death_of_Socrates.jpg')">
         <div class="col-xs ">
@@ -44,6 +46,20 @@
         </div>
     </section>
 
+    <section class="row middle-xs window-height u-white img-cover" style="background:url('/assets/images/David-The_Death_of_Socrates.jpg')">
+        <div class="col-xs ">
+            <div class="box">
+                <h1>Socratic Way</h1>
+                <h2>Coming
+                    <br />December
+                    <br />2014</h2>
+                <!--  <p><a href="workshops/3ds">3 Day Startup Socratic Way Bootcamp</a>
+                </p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -52,8 +68,37 @@
 
     <script>
     $(function() {
-        var windowHeight = $(window).height();
-        $('.window-height').css('minHeight', windowHeight);
+
+        /*
+         * Functions
+         */
+
+        function resizeSections() {
+            var windowHeight = $(window).height();
+            $('.window-height').css('minHeight', windowHeight);            
+        }
+
+        /*
+         * Event Listeners
+         */
+
+        $(window).resize(function(){
+            console.log('')
+            resizeSections();
+        });
+
+
+        /*
+         * Initialize
+         */
+
+        function init() {
+            resizeSections();
+        }
+
+        init();
+
+
     });
     </script>
     <!-- Analytics -->

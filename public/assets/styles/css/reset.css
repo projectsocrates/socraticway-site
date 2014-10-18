@@ -10,3 +10,13 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+.browsehappy {
+  padding: 5px;
+}
+
+p.browsehappy,
+p.browsehappy a {
+    font-size: 20px;
+    text-align: center;
+}
