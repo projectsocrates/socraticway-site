@@ -1,0 +1,24 @@
+{
+  "name": "socraticway-site",
+  "version": "1.0.0",
+  "description": "Website for Socratic Way",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socraticway/socraticway-site.git"
+  },
+  "author": "Sartaj",
+  "license": "Use requires permission",
+  "bugs": {
+    "url": "https://github.com/socraticway/socraticway-site/issues"
+  },
+  "homepage": "https://github.com/socraticway/socraticway-site",
+  "dependencies": {
+    "express": "^4.9.8",
+    "gzippo": "^0.2.0",
+    "logfmt": "^1.1.2"
+  }
+}
