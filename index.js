@@ -1,3 +1,5 @@
+require('newrelic');
+
 // var gzippo = require('gzippo');
 var express = require('express');
 // var basicAuth = require('basic-auth-connect');
